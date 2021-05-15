@@ -1,0 +1,36 @@
+
+html, body {
+    font-family: 'Noto Sans KR', sans-serif;
+    max-width: 960px;
+    height: auto;
+    margin: auto;
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(18, 1fr);
+    grid-gap: 10px 20px;
+    grid-template-areas: "header header header"
+    "splash splash splash"
+    "mission mission mission"
+    "services services services"
+    "quote quote quote"
+    "footer footer footer"
+}
+
+.splash {
+    grid-area: "splash";
+}
+.mission {
+    grid-area: "mission";
+}
+.services {
+    grid-area: "services";
+}
+.quote{
+    grid-area: "quote";
+}
+.footer{
+    grid-area: "footer";
+}
+
