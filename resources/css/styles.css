@@ -1,40 +1,64 @@
 
 html, body {
     font-family: 'Noto Sans KR', sans-serif;
-    max-width: 1440px;
+    width: 1440px;
     height: auto;
     margin: auto;
+    font-size: 24px;
 }
 header {
     display: flex;
+    position: sticky;
+    width: 100%;
+    background-color: honeydew;
+    height: 85px;
 }
-main .container{
+nav {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+main {
     display: grid;
-    width: 1140px;
-    grid-template-columns: repeat(12, 1fr);
-    grid-template-rows: repeat(18, 1fr);
+    max-width: 1140px; /*code not working */
+    max-height: 3000px;
+    margin: auto;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 3fr 1fr 1fr 1fr 1fr 1fr;
     grid-gap: 10px 20px;
     grid-template-areas:
     "splash splash splash"
     "mission mission mission"
     "services services services"
+    "about about about"
     "quote quote quote"
     "footer footer footer"
 }
-
 .splash {
-    grid-area: "splash";
+    display: flex;
+    grid-area: splash;
+    background-image: url("../images/removalvanimage.jpg");
+    background-size: 100%;
+    background-position: center;
+    align-items: center;
+    justify-content: center;
+}
+.splash h1{
+    text-align: center;
 }
 .mission {
-    grid-area: "mission";
+    grid-area: mission;
 }
 .services {
-    grid-area: "services";
+    grid-area: services;
+}
+.about {
+    grid-area: about;
 }
 .quote{
-    grid-area: "quote";
+    grid-area: quote;
 }
 .footer{
-    grid-area: "footer";
+    grid-area: footer;
 }
 
