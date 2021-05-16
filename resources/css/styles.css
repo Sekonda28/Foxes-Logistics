@@ -1,16 +1,20 @@
 
 html, body {
     font-family: 'Noto Sans KR', sans-serif;
-    max-width: 960px;
+    max-width: 1440px;
     height: auto;
     margin: auto;
 }
-.container{
+header {
+    display: flex;
+}
+main .container{
     display: grid;
+    width: 1140px;
     grid-template-columns: repeat(12, 1fr);
     grid-template-rows: repeat(18, 1fr);
     grid-gap: 10px 20px;
-    grid-template-areas: "header header header"
+    grid-template-areas:
     "splash splash splash"
     "mission mission mission"
     "services services services"
