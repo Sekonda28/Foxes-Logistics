@@ -1,5 +1,5 @@
 # Project Name
-Development of company homepage using CSS Grid/Flex (Codecademy project)
+Development of company homepage using CSS Flex (Codecademy project)
 
 ## Technologies
 * HTML5
