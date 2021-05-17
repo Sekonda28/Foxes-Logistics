@@ -40,11 +40,15 @@ main {
     background-image: url("../images/removalvanimage.jpg");
     background-size: 100%;
     background-position: center;
+    align-content: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    flex-wrap: wrap;
     align-items: center;
-    justify-content: center;
 }
 .splash h1{
-    text-align: center;
+    margin-bottom: 5px;
+}
 }
 .mission {
     grid-area: mission;
