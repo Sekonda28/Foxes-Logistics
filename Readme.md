@@ -6,7 +6,7 @@ Development of company homepage using CSS Flex (Codecademy project)
 * CSS
 
 ## Status
-Project is: _in progress
+Project is: _complete
 
 ## Contact
 Created by Sekonda28 - feel free to contact me!

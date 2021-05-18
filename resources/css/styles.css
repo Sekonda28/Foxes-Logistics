@@ -39,6 +39,10 @@ main {
     "quote quote quote"
     "footer footer footer"*/
 }
+a {
+    color: whitesmoke;
+    text-decoration: none;
+}
 h2{
     text-align: center;
 }
@@ -62,7 +66,7 @@ h2{
 }
 .splash .text {
     align-self: flex-end;
-    width: 400px;
+    max-width: 400px;
     flex-shrink: 1;
     margin-right: 150px;
 }
@@ -76,6 +80,7 @@ h2{
     float:left ;
     justify-content: flex-start;
     flex-direction: column;
+    flex-shrink: 1;
 }
 .mission img{
     display: flex;
@@ -83,6 +88,7 @@ h2{
     height: auto;
     flex-direction: row;
     justify-content: flex-end;
+    flex-shrink: 1;
 }
 .services {
     padding-top: 20px;
